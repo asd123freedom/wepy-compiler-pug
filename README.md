@@ -34,7 +34,7 @@ __NOTE__: you must still install the engines you wish to use, add them to your p
 ## installation
 
 ```
-cnpm install wepy-compiler-view --save-dev
+cnpm install wepy-compiler-jade --save-dev
 ```
 
 
