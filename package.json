@@ -28,6 +28,6 @@
   "homepage": "https://github.com/fengxinming/wepy-compiler-jade#readme",
   "dependencies": {
     "jade": "^1.11.0",
-    "wepy-compiler-view": "^1.0.0"
+    "wepy-compiler-view": "^1.0.1"
   }
 }
