@@ -1,4 +1,4 @@
-# wepy jade/pug 编译插件并支持多模板解析
+# wepy jade/pug 编译插件
 
 [![npm package](https://nodei.co/npm/wepy-compiler-jade.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/wepy-compiler-jade)
 
@@ -47,7 +47,7 @@ module.exports = {
   compilers: {
     view: {
       engine: 'pug',             // 默认为jade。如果需要使用 pug 模板，就在此处设置
-      enforcePretty: true,       // 默认为false，即：让模板引擎自动美化。该参数用于模板引擎美化失效时强行美化。
+      // enforcePretty: true,       // 默认为false，即：让模板引擎自动美化。该参数用于模板引擎美化失效时强行美化。
       globalConfig: {            // 这个属性名字可以随便定义，只要在模板中使用相同的名字即可
         imgUrlPrefix: ''
       }
