@@ -73,7 +73,7 @@ __NOTE__: you must still install the engines you wish to use, add them to your p
 ## installation
 
 ```
-cnpm install wepy-compiler-view --save-dev
+cnpm install wepy-compiler-jade@beta --save-dev
 ```
 
 
@@ -84,7 +84,7 @@ cnpm install wepy-compiler-view --save-dev
 
 module.exports = {
   compilers: {
-    view: {
+    jade: {
       engine: 'pug',             // 默认为jade，如果需要使用pug或其它模板，就在此处设置
       render: promise,           // 自定义渲染函数，支持promise
       options: {
