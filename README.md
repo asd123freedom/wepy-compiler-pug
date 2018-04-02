@@ -98,7 +98,7 @@ module.exports = {
 
 // write vue/wpy template
 
-<template lang="view">
+<template lang="jade">
   view
     image(src=`${globalConfig.imgUrlPrefix}/images/xxx.svg`)
 </template>    
