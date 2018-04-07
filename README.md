@@ -2,7 +2,7 @@
 
 [![npm package](https://nodei.co/npm/wepy-compiler-jade.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/wepy-compiler-jade)
 
-> Note: wepy官方提供的插件`wepy-compiler-pug`不支持全局对象传入，查看源码发现该插件的代码有BUG，在Github上的Issues也无人回复，因此自己提供一个多模板解析插件`wepy-compiler-jade`。
+> Note: wepy官方提供的插件`wepy-compiler-pug`不支持全局对象传入，查看源码发现该插件的代码有BUG，作者未对BUG进行修复，因此自己提供一个多模板解析插件`wepy-compiler-jade`。
 
 > 如果该插件对您的开发有所帮助，请五星好评哦！^_^ ^_^ ^_^
 
